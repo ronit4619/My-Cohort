@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/minilogo.png">
+    <title>MyCohort</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/overall.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0" id="header">
+            <div class="fixed-top">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="topDown p-4" style="background-color: #031a3d;">
+                        <a class="text-white h4" href="home.html">Home</a>
+                        <br>
+                        <a class="text-white h4" href="messages.html">Messages</a>
+                        <br>
+                        <a class="text-white h4" href="opportunities.html">Extra-Curricular Oppurtunities</a>
+                        <br>
+                        <a class="text-white h4" href="finances.html">Finances</a>
+                    </div>
+                </div>
+                <nav class="navbar navbar-light" style="background-color: #ffbd59;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img class="MyCohort" src="images/logo1.png" alt="MyCohort" class="logo">
+                    <a href="Main.html"><button type="button" class="btn btn-danger">LOGOUT</button></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Code.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
+                        <h5>Ministry of Education introduces new class curriculum</h5>
+                        <p>Now students in elementary school will be taught coding and personal finanace!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/DECA.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
+                        <h5>DECA Provincials Meeting</h5>
+                        <p>Meeting for all students attending DECA Provincials in room 118 at 2:30.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hackathon.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="caption">
+                        <h5>New Hackathon Alert</h5>
+                        <p>Presenting BridgeHacks! A hackathon open to everybody!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="calendar">
+            <div class="container">
+                <h1 class="display-4">Schedule:</h1>
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=49jp1omqhqjuvs2hmr6if0tl6s%40group.calendar.google.com&ctz=America%2FToronto"
+                    style="border:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class = "container-fluid">
+                <div class = "row" id = "socialRow">
+                    <div class = "pictures col-1">
+                    <div>
+                        <img class = "social"src  ="images/twitter.png">
+                    </div>
+                    <div >
+                        <img class = "social"src  ="images/Instagram.webp">
+                    </div>
+                    <div >
+                        <img class = "social" src  ="images/Linkedin.png">
+                        </div>
+                    </div>
+                    <div class = "words col-11">
+                        <h3>About Us</h3>
+                        A centralized hub for students in highschool and post-secondary institutions. Keep up with your coursework, school related finances and find more extra-curricular activities all at one place. 
+                        <br>
+                        <label for='email-input'>Subscribe to Our Newsletter</label>
+                        <input id='email-input' class='form-control' type='text' placeholder="name@email.com">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
