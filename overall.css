@@ -1,0 +1,72 @@
+/*Redo Everything */
+.interactiveAspect {
+    display: grid;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button {
+    text-align: center;
+    background-color: #6DA7C9;
+    border-radius: 10px;
+}
+
+.mainTopic {
+    display: grid;
+    align-items: center;
+    background-color: #0f7BAA;
+    color: azure;
+    border-bottom: solid 5px #6DA7C9;
+    padding-top: 10px;
+}
+.message {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.box {
+    align-items: center;
+    justify-items: center;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-right: 1px solid black;
+}
+.dp {
+    width: 50px;
+    height: 50px;
+}
+.info {
+    padding-left: 30px;
+}
+
+.section {
+        border-right: solid 5px #6DA7C9;
+        border-bottom: solid 5px #6DA7C9;
+}
+/* FOOTER CSS*/
+#socialRow {
+    background-color: grey;
+    color: azure;
+}
+.pictures {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.words {
+    padding-top: 20px;
+    padding-left: 400px;
+    align-items: center;
+}
+
+.email{
+    padding-top: 20px;
+}
